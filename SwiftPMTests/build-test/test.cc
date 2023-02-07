@@ -15,19 +15,19 @@
 // BoringSSL imports from gRPC
 // Created using `git grep -h \<openssl | grep include | sort | uniq`
   
-#include <openssl/bio.h>
-#include <openssl/bn.h>
-#include <openssl/buffer.h>
-#include <openssl/crypto.h>
-#include <openssl/engine.h>
-#include <openssl/err.h>
-#include <openssl/evp.h>
-#include <openssl/hmac.h>
-#include <openssl/pem.h>
-#include <openssl/rsa.h>
-#include <openssl/ssl.h>
-#include <openssl/x509.h>
-#include <openssl/x509v3.h>
+#include <BoringSSL-GRPC/bio.h>
+#include <BoringSSL-GRPC/bn.h>
+#include <BoringSSL-GRPC/buffer.h>
+#include <BoringSSL-GRPC/crypto.h>
+#include <BoringSSL-GRPC/engine.h>
+#include <BoringSSL-GRPC/err.h>
+#include <BoringSSL-GRPC/evp.h>
+#include <BoringSSL-GRPC/hmac.h>
+#include <BoringSSL-GRPC/pem.h>
+#include <BoringSSL-GRPC/rsa.h>
+#include <BoringSSL-GRPC/ssl.h>
+#include <BoringSSL-GRPC/x509.h>
+#include <BoringSSL-GRPC/x509v3.h>
 
 // Test for duplicate `_main` symbol.
 int main(int argc, char** argv) {}
